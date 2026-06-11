@@ -1,0 +1,36 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Big binaries / Models / Data / Directories
+*.pt
+*.onnx
+*.zip
+*.tar.gz
+REQUIREMENTS/
+TEST VIDEOS/
+SAMPLE OUTPUTS/
+
+# Local video processing outputs
+enhanced_output*.mp4
+enhanced_output_video.mp4
+*.log
